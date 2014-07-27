@@ -1,0 +1,21 @@
+{
+  "name": "yahoo_quotes",
+  "version": "0.0.1",
+  "description": "Async fetch of stock or dividend quotes from yahoo finance",
+  "main": "./lib/yahoo_quotes",
+  "scripts": {
+    "test": "coffee ./test/test.coffee"
+  },
+  "keywords": [
+    "stock",
+    "quotes",
+    "yahoo",
+    "dividends"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbeshears/yahoo_quotes.git"
+  },
+  "author": "Fred M. Beshears",
+  "license": "ISC"
+}
