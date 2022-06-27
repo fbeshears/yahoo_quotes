@@ -10,7 +10,7 @@ task 'build', 'Build project from src/*.coffee to lib/*.js', ->
 
 
 
-task 'test', 'Run test of iso_date_parser', ->
+task 'test', 'Run test of module', ->
   exec 'coffee ./test/test.coffee',(err, stdout, stderr) ->
     throw err if err
     console.log stdout + stderr
